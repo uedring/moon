@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-configuration  xmlns="urn:nhibernate-configuration-2.2" >
+  <session-factory name="J.PinShop.DAL.NHibernateSessionFactory">
+    <property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
+    <property name="connection.connection_string">
+      Data Source=localhost;Initial Catalog=DB_B4B_Main_T;Integrated Security=SSPI;
+    </property>
+    <property name="dialect">NHibernate.Dialect.MsSql2012Dialect</property>
+    <mapping assembly="J.PinShop.DAL"/>
+  </session-factory>
+</hibernate-configuration>

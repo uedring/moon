@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+   assembly="J.PinShop.Model"
+   namespace="J.PinShop.Model">
+
+  <class name="Product" table="PSO_Product">
+    <id name="ProductId" column ="ProductId" type="Int32">
+      <generator class="native"/>
+    </id>
+    <property name ="ProductName" type="String"/>
+    <property name ="EanCode" type="String"/>
+    <property name ="OwnerFroleId"  type="Guid"/>
+    <property name ="ShortName"  type="String"/>
+    <property name ="B2CGuidPrice"  type="Decimal"/>
+  </class>
+</hibernate-mapping>

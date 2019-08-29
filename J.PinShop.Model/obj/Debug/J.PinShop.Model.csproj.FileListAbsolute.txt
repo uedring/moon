@@ -1,0 +1,5 @@
+D:\PersonalFile-Jing\workspace\J.PinShop\J.PinShop.Model\bin\Debug\J.PinShop.Model.dll
+D:\PersonalFile-Jing\workspace\J.PinShop\J.PinShop.Model\bin\Debug\J.PinShop.Model.pdb
+D:\PersonalFile-Jing\workspace\J.PinShop\J.PinShop.Model\obj\Debug\J.PinShop.Model.csprojResolveAssemblyReference.cache
+D:\PersonalFile-Jing\workspace\J.PinShop\J.PinShop.Model\obj\Debug\J.PinShop.Model.dll
+D:\PersonalFile-Jing\workspace\J.PinShop\J.PinShop.Model\obj\Debug\J.PinShop.Model.pdb

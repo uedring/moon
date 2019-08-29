@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J.PinShop.Model", "J.PinShop.Model\J.PinShop.Model.csproj", "{719FDF63-EA4A-4C0D-BFBE-DD8DBC3C50B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J.PinShop.DAL", "J.PinShop.DAL\J.PinShop.DAL.csproj", "{1B180644-D1DD-46FA-8E5B-CAB9F58DC52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J.PinShop.Console", "J.PinShop.Console\J.PinShop.Console.csproj", "{0BD4BA99-9A8F-450E-897D-AD5813820F61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{719FDF63-EA4A-4C0D-BFBE-DD8DBC3C50B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719FDF63-EA4A-4C0D-BFBE-DD8DBC3C50B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719FDF63-EA4A-4C0D-BFBE-DD8DBC3C50B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719FDF63-EA4A-4C0D-BFBE-DD8DBC3C50B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B180644-D1DD-46FA-8E5B-CAB9F58DC52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B180644-D1DD-46FA-8E5B-CAB9F58DC52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B180644-D1DD-46FA-8E5B-CAB9F58DC52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B180644-D1DD-46FA-8E5B-CAB9F58DC52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD4BA99-9A8F-450E-897D-AD5813820F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD4BA99-9A8F-450E-897D-AD5813820F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD4BA99-9A8F-450E-897D-AD5813820F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD4BA99-9A8F-450E-897D-AD5813820F61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
