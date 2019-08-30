@@ -41,27 +41,17 @@ namespace J.PinShop.Console
             //    System.Console.WriteLine($"{i+1}\t{pdts[i].ProductId}\t{pdts[i].ProductName}");
             //}
 
-            System.Console.WriteLine("开始计算");
-
-
-           var sum= SumAsync2(1000);
-            var sum2 = SumAsync2(50);
-            var sum3 = SumAsync(400);
-
-            System.Console.WriteLine("程序中间");
-
-            System.Console.WriteLine(sum.Result);
-            System.Console.WriteLine(sum2.Result);
-            System.Console.WriteLine(sum3.Result);
-
-            System.Console.WriteLine("程序末尾");
+            GetObjectFromSpring();
 
             System.Console.ReadKey();
         }
 
-        static void Startup()
+        static void GetObjectFromSpring()
         {
-            
+            var ctx= Spring.Context.Support.ContextRegistry.GetContext();
+            var prodcut= ctx.GetObject<Model.Product>();
+
+            System.Console.WriteLine(prodcut.OwnerFroleId);
         }
 
         static void SortString()
